@@ -14,22 +14,22 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Getting Started
 To start working on your local machine follow these steps:
-1- Clone this repository.
-2- Download the environment from one of the links below. You need only select the environment that matches your operating system:
-  Linux: click here
-  Mac OSX: click here
-  Windows (32-bit): click here
-  Windows (64-bit): click here
+* 1- Clone this repository.
+* 2- Download the environment from one of the links below. You need only select the environment that matches your operating system:
+  *Linux: click here
+  *Mac OSX: click here
+  *Windows (32-bit): click here
+  *Windows (64-bit): click here
 
-3- Place the downloaded file in the folder you cloned this repo to and unzip (or decompress) the file.
-4- Create a Python environment for this project. 
-5-Activate that environment and install needed dependencies
+* 3- Place the downloaded file in the folder you cloned this repo to and unzip (or decompress) the file.
+* 4- Create a Python environment for this project. 
+* 5-Activate that environment and install needed dependencies
 
   
 ## Files
-1- Navigation.ipynb 
-  Contains the whole project, every thing is clearly illustrated there
-2- dqn_agent.py
-  The agent implementation
-3- model.py
-  The deep learning model
+* 1- Navigation.ipynb 
+  *Contains the whole project, every thing is clearly illustrated there
+* 2- dqn_agent.py
+  *The agent implementation
+* 3- model.py
+  *The deep learning model
