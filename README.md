@@ -10,7 +10,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 * 1 - move backward.
 * 2 - turn left.
 * 3 - turn right.
-\nThe task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Getting Started
 To start working on your local machine follow these steps:
@@ -28,8 +28,8 @@ To start working on your local machine follow these steps:
   
 ## Files
 * 1- Navigation.ipynb 
-  *Contains the whole project, every thing is clearly illustrated there
+  Contains the whole project, every thing is clearly illustrated there
 * 2- dqn_agent.py
-  *The agent implementation
+  The agent implementation
 * 3- model.py
-  *The deep learning model
+  The deep learning model
