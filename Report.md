@@ -44,3 +44,5 @@ Inorder to improve upon the result, there are multiple things we could implement
 * Prioritized experience replay
 * Noisy DQN
 * Trying simpler techniques such as SARSA and Q-Learning
+
+A source of inspiration, and a good reading to get started towards this goal is DeepMind's Rainbow paper (https://arxiv.org/abs/1710.02298).
