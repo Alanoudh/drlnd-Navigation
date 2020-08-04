@@ -1,7 +1,7 @@
 # Project Report 
 
 ## Introduction 
-In this project I takled the navigation problem (check ...) using DQN algorithm. I decided to use DQN because it is a great value-based algorithm that is known to perform well in discrete actions spaces such as the one for this environment.
+In this project I takled the navigation problem using DQN algorithm. I decided to use DQN because it is a great value-based algorithm that is known to perform well in discrete actions spaces such as the one for this environment.
 
 ## Learning Algorithm 
 DQN is an algorithm created by DeepMind that brings together the power of the Q-Learning algorithm with the advantages of generalization through function approximation. It uses a deep neural network to estimate a Q-value function. As such, the input to the network is the current state of the environment, and the output is the Q-value for each action.
@@ -13,7 +13,11 @@ DeepMind also came up with two techniques that help successfully train a DQN age
 
 In this project I used both techniques to train the DQN agent.
 
-The model architecture used is the same for both the local and target networks. It consists of 3 fully-connected layers. The first 2 layers use a ReLU activation, while the output layer has the no activation function.
+### DQN Architecture 
+The model architecture used is the same for both the local and target networks. <br />
+* Number of layers: it consists of 3 fully-connected layers. 
+* Units in each layer: the input layer has 37 units (takes as an input a vector of size 37). The first and second hidden layers contain 64 units each. The output layer has 4 output units (action number).
+* Activation function: The first 2 layers use a ReLU activation, while the output layer has the no activation function.
 
 ### HyperParameters: 
 RL hyperparameters:
