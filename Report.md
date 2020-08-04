@@ -30,8 +30,7 @@ DQN hyperparameters:
 
 ## Results
 
-The graph bellow shows the score for the agent over 2000 episodes. The agent was trained using the same network structure and hyperparameters mentioned above. Across multiple runs, the agent usually solve the environment after about 500-600 episodes, eventually setting at a score close to 16 after 2000 episodes.
+The graph bellow shows the score for the agent over 2000 episodes. The agent was trained using the same network structure and hyperparameters mentioned above. Across multiple runs, the agent usually solve the environment after about 500-600 episodes, eventually setting at a score close to 16 after 1000 episodes, and peaks around 1300 and then starts to fall.
 
 ![Score](/scores.png)
-Format: ![Alt Text](url)
 
