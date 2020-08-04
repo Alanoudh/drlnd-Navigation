@@ -18,10 +18,10 @@ To start working on your local machine follow these steps:
 * 1- Clone this repository.
 * 2- Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-  Linux: click here
-  Mac OSX: click here
-  Windows (32-bit): click here
-  Windows (64-bit): click here
+  Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip <br />
+  Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip <br />
+  Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip <br />
+  Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip <br />
 
 * 3- Place the downloaded file in the folder you cloned this repo to and unzip (or decompress) the file.
 * 4- Create a Python environment for this project. 
