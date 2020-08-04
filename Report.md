@@ -38,3 +38,9 @@ The graph bellow shows the score for the agent over 2000 episodes. The agent was
 
 ![Score](/scores.png)
 
+## Future Work
+Inorder to improve upon the result, there are multiple things we could implement and experiment with:
+* Using a double DQN agent
+* Prioritized experience replay
+* Noisy DQN
+* Trying simpler techniques such as SARSA and Q-Learning
