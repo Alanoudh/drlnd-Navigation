@@ -43,4 +43,4 @@ Inorder to improve upon the result, there are multiple things we could implement
 * Using different valiation of DQN, such as: double Q-Learning, Dueling DQN, and Prioritized Experience Replay.
 * Trying simpler techniques such as SARSA and Q-Learning
 
-A source of inspiration, and a good reading to get started towards this goal is DeepMind's Rainbow paper (https://arxiv.org/abs/1710.02298).
+A paper by DeepMind (Rainbow) available at (https://arxiv.org/abs/1710.02298) can be really helpful and it has some great ideas for future work.
