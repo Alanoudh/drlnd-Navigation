@@ -1,12 +1,12 @@
 # Project Report 
 
 ## Introduction 
-In this project I takled the navigation problem using DQN algorithm. I decided to use DQN because it is a great value-based algorithm that is known to perform well in discrete actions spaces such as the one for this environment.
+In this project I takled the navigation problem using DQN algorithm. I decided to use DQN because it is a model-free and value-based reinforcement learning algorithm that learns a policy telling an agent what action to take under what circumstances. DQN usually peform well in various environments, and it outperforms other algorithms such as Q-learning and SARSA. 
 
 ## Learning Algorithm 
-DQN is an algorithm created by DeepMind that brings together the power of the Q-Learning algorithm with the advantages of generalization through function approximation. It uses a deep neural network to estimate a Q-value function. As such, the input to the network is the current state of the environment, and the output is the Q-value for each action.
+DQN is a reinforcement learning algorithm that combines Q-Learning with deep neural networks to estunate a Q-value function, and to let RL work for complex, high-dimensional environments, like video games, or robotics. It has the capability of generalization through function approximation. The deep neural network takes as an input the state, and outputs the Q-value for each action.
 
-DeepMind also came up with two techniques that help successfully train a DQN agent:
+Traditinal DQN has some shortcomings, therefore, DeepMind came up with two techniques that help successfully train a DQN agent:
 
 * Replay buffer: Stores a finite collection of previous experiences that can be sampled randomly in the learning step. This helps break the correlation between consecutive actions, which leads to better conversion.
 * Separate target network: Similar to the local network in structure, this network helps prevent large fluctuations in network updates, which leads to more stable training.
@@ -34,15 +34,13 @@ DQN hyperparameters:
 
 ## Results
 
-The graph bellow shows the score for the agent over 2000 episodes. The agent was trained using the same network structure and hyperparameters mentioned above. Across multiple runs, the agent usually solve the environment after about 500-600 episodes, eventually setting at a score close to 16 after 1000 episodes, and peaks around 1300 and then starts to fall.
+The graph bellow shows the score for the agent over 2000 episodes. The agent was trained using the network architecture and hyperparameters mentioned earlier. The agent usually solve the environment after 500 episodes, and setting at a score close to 16 after 1000 episodes, and peaks around 1300 and then starts to fall.
 
 ![Score](/scores.png)
 
 ## Future Work
 Inorder to improve upon the result, there are multiple things we could implement and experiment with:
-* Using a double DQN agent
-* Prioritized experience replay
-* Noisy DQN
+* Using different valiation of DQN, such as: double Q-Learning, Dueling DQN, and Prioritized Experience Replay.
 * Trying simpler techniques such as SARSA and Q-Learning
 
 A source of inspiration, and a good reading to get started towards this goal is DeepMind's Rainbow paper (https://arxiv.org/abs/1710.02298).
